@@ -1,0 +1,111 @@
+.wrap{
+    width: 1280px;
+    background: #F0F0F0;
+    margin: 0 auto;
+    
+    padding: 60px 70px;
+    }
+    .title{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        height: 366px;
+        margin: 20px 15px;
+        padding: 64px 40px;
+        color:#2EB738;
+    }
+    
+    .row {
+        top: 25px;
+        width: 289px;
+        left: 16px;
+        height: 2px;
+        background-color: #2EB738;
+        position: absolute;
+    }
+    .ximages{
+        top:20px;
+        left: 6px;
+        font-size: 20px;
+        position: absolute;
+    }
+    .ximages2{
+        top: 20px;
+        right: 34px;
+        font-size: 20px;
+        position: absolute;
+    }
+    .ximages3{
+        bottom: -3px;
+        left: 9px;
+        font-size: 20px;
+        position: absolute;
+    }
+    .ximages4{
+        bottom: -3px;
+        right: 29px;
+        font-size: 20px;
+        position: absolute;
+    }
+    .row2{
+        width: 289px;
+        height: 2px;
+        background-color: #2EB738;
+        position: absolute;
+        left: 20px;
+        top: 355px;
+    }
+    
+    .main .title h2{
+        height: 60px;
+        font-size: 53px;
+    }
+    .main .title p{
+        text-align: center;
+        font-size: 21px;
+    }
+    
+    
+    .main{
+        position: relative;
+    
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    .main li:not(:first-child){
+        border-radius: 100px 0px 30px 0px;
+        width: 350px;
+        height: 366px;
+        margin: 20px 15px;
+        padding: 64px 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: left;
+        letter-spacing:10px;
+        color:#2EB738;
+        background-color: #fff;
+    }
+    
+    
+    .main h2{
+        display: block;
+        text-align: center;
+        height: 110px;
+        font-size: 120px;
+        
+        
+    }
+    .main p{
+        margin: 5px 0;
+        font-size: 24px;
+        margin-right: 5px;
+    }
+    
